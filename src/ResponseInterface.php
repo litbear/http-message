@@ -16,6 +16,8 @@ namespace Psr\Http\Message;
  * Responses are considered immutable; all methods that might change state MUST
  * be implemented such that they retain the internal state of the current
  * message and return an instance that contains the changed state.
+ * 在此，我们认为HTTP响应是不可变的。所有可能会改变消息状态的方法 必须（MUST） 被实现，
+ * 以便保持当前HTTP消息的内部状态，并返回一个实例包含已改变的状态。
  */
 interface ResponseInterface extends MessageInterface
 {
